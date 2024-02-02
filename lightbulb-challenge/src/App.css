@@ -1,0 +1,31 @@
+
+.app {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+.lightbulb {
+  width: 50px;
+  height: 80px;
+  background-color: yellow;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+

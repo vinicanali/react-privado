@@ -1,5 +1,7 @@
-import { useState } from 'react'
-import './App.css'
+// App.js
+import { useState } from 'react';
+import './App.css';
+import Lightbulb from './Lightbulb';
 
 function App() {
   const initialColor = 'black'
@@ -26,3 +28,6 @@ function App() {
 };
 
 export default App
+
+
+
